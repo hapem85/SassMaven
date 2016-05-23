@@ -1,0 +1,20 @@
+$default-padding-left: 5px ;
+$default-padding-right: 5px ;
+$default-padding-top: 5px ;
+$default-padding-bottom: 5px ;
+
+@mixin default-padding {
+	padding-top: $default-padding-top;
+	padding-bottom: $default-padding-bottom;
+	padding-left: $default-padding-left;
+	padding-right: $default-padding-right;
+}
+
+$header-height: 200px ;
+$center-height: 550px ;
+$footer-height: 150px ;
+
+@mixin default-border {
+	border-radius: 5px;
+	border: 2px solid #73AD21;
+}
